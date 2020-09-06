@@ -1,3 +1,4 @@
 # MyWebsites
-#This is a website where you can get some important details about all the pokemons
-#This is my practice project where i have successfully integrated an API to my website
+This repository is created so that i can upload my individual projects in this repository.
+You can review the projects and pull requests to improve them.
+Feedback are always appreciated
