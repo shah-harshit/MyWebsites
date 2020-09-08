@@ -324,19 +324,17 @@
       line-height: 2;
       height: 100px;
     }
-     .main-nav {
-      display: none;
-    }
     .about-container, .product-container, .product-image {
       width: 330px;
     }
-
-    
+    .main-nav {
+      display: none;
+    }
   }
   
   /* Responsive design for tablets */
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px){
     .header {
       position: fixed;
       box-shadow: 0 0 300px #000;
@@ -415,4 +413,5 @@
       background-position: center;
       background-repeat: no-repeat;
     }
+    
   }
