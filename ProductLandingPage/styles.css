@@ -335,7 +335,7 @@
   
   /* Responsive design for tablets */
   
-  @media screen and (min-width: 768px) and (max-width: 1279px) {
+  @media screen and (min-width: 768px) {
     .header {
       position: fixed;
       box-shadow: 0 0 300px #000;
