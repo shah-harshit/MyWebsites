@@ -324,13 +324,14 @@
       line-height: 2;
       height: 100px;
     }
+     .main-nav {
+      display: none;
+    }
     .about-container, .product-container, .product-image {
       width: 330px;
     }
 
-    .main-nav {
-      display: none;
-    }
+    
   }
   
   /* Responsive design for tablets */
@@ -345,9 +346,6 @@
     }
     .title {
       font-size: 4em;
-    }
-    .menu {
-      display: none;
     }
     .main-nav {
       position: relative;
