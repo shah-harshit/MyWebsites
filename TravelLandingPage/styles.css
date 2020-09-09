@@ -1,0 +1,166 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header .title {
+  font-size: 3rem;
+  font-weight: 1000;
+  float: left;
+  padding: 0 3rem;
+}
+
+header .container{
+  position: fixed;
+  padding: 2rem;
+  width: 100%;
+  align-content: center;
+  background: linear-gradient(to top, transparent, #00BCD4);
+}
+
+.nav-bar {
+  font-size: 1.5rem;
+  float: right;
+  text-align: center;
+  align-content: center;
+}
+
+.nav-bar ul li{
+  display: inline-block;
+  flex-direction: row;
+  padding: 0.5rem 2rem;
+  border: 2px solid #03A9F4;
+  border-top: none;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px #000;
+}
+
+.nav-bar ul li:hover{
+  background-color: #00BCD4;
+  cursor: pointer;
+}
+
+.nav-bar ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+main .container{
+  padding: 10rem 5rem;
+}
+
+main .quote {
+  font-size: 2rem;
+  font-weight: 500;
+  float: left;
+  padding: 5rem;
+  width: 100%;
+}
+
+.block {
+  padding: 1rem 0 0 8rem;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.individual-block{
+  text-decoration: none;
+  background-color: linear-gradient(#B2EBF2,#ffffff);
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  width: 25%;
+  padding: 1rem;
+  border-radius: 15px;
+  margin: 3rem 2rem;
+  box-shadow: 5px 5px 5px #000000;
+}
+
+.individual-block .title {
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.individual-block ul{
+  list-style-type: none;
+}
+
+.individual-block ul li{
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+footer .container{
+  margin: 0 0 1rem 5rem;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1280px){
+
+  header .nav-bar {
+    display: none;
+  }
+
+  .block {
+    padding: 1rem 0 0 0rem;
+    width: auto;
+    display: block;
+    align-items: center;
+  }
+
+  .individual-block {
+    width: 50%;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  main .quote{
+    padding:0;
+    margin: 0 0 5rem 5rem;
+    width: 75%;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 780px) {
+
+
+  header .nav-bar {
+    display: none;
+  }
+
+  main .container{
+    margin: 0;
+  }
+
+  .block {
+    padding: 0;
+  }
+
+  .individual-block {
+    width: 100%;
+    margin: 5rem 0 1rem 0;
+    
+  }
+  main .quote{
+    padding: 0;
+    margin: 0 0 5rem 0;
+    text-align: center;
+  }
+  
+}
