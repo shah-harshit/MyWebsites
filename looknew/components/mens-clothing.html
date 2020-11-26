@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous"> -->
+  <link href="https://fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <title>Look New</title>
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="brand">
+      <img src="../images/logo.svg" alt="Logo" id="header-img" class="logo">
+      <h1 class="title"><a href="#video" class="nav-link">Look New</a></h1>
+    </div>
+  </header>
+
+  <section id="products">
+    
+    <div class="container-individual-product" id="product-image-list">
+      <div class="product-section-description">
+        To place your order, Send us the screenshot of the products on <br>
+        <a href="http://wa.me/919892882253" target="_blank" style="font-weight: 900; color: #0288D1;">+91 9892882253</a>,
+        <a href="http://wa.me/918976002697" target="_blank" style="font-weight: 900; color: #0288D1;">+91 8976002697</a>,
+        <a href="http://wa.me/918767386168" target="_blank" style="font-weight: 900; color: #0288D1;">+91 8767386168</a>.
+      </div>
+      <script>
+        var container = document.getElementById('product-image-list');
+
+          for(var i=1; i<=104; i++) {
+            var img = new Image();
+            img.src = '/productImage/mens-clothing/cloth' + i + '.jpeg';
+            img.className = 'product-container';
+            img.id = 'individual-product-image';
+            img.alt = 'Shoes';
+            container.appendChild(img);
+          }
+        
+      </script> 
+      
+    </div>
+  </section>
+
+  </body>
+</html>
